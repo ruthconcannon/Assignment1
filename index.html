@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        /* Default background color */
+        body {
+            background-color: #f4f4f9;
+            transition: background-color 0.5s ease-in-out;
+        }
+        
+        /* Background color changes based on screen width */
+        @media (max-width: 1200px) {
+            body { background-color: #d1e7ff; } /* Light Blue */
+        }
+        @media (max-width: 992px) {
+            body { background-color: #ffeed9; } /* Light Orange */
+        }
+        @media (max-width: 768px) {
+            body { background-color: #f8d7da; } /* Light Red */
+        }
+        @media (max-width: 576px) {
+            body { background-color: #d4edda; } /* Light Green */
+        }
+        
+        .bg-custom { background-color: #007bff; }
+        .text-custom { color: #ffffff; }
+        .section-bg {
+            background-color: #e3f2fd;
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+
+</head>
+<body>
+    <header class="bg-custom text-custom text-center p-4">
+        <h1>Welcome to My Portfolio</h1>
+        <p>A digital CV showcasing my skills and aspirations</p>
+    </header>
+    
+    <div class="container mt-4">
+        <section id="about" class="section-bg">
+            <h2>About Me</h2>
+            <img src="webdevlop.png" alt="Profile Picture" class="img-fluid rounded-circle" width="150">
+            <p>Hi, I'm Ruth, a first-year Interaction Design student at the University of Limerick. I chose to study Interaction Design because I have a passion for creating intuitive and engaging digital experiences. I enjoy problem-solving and finding ways to make technology more accessible and user-friendly.</p>
+            <p>I am particularly interested in UX/UI design, web development, and human-computer interaction. I love exploring how design and technology can work together to improve people's everyday lives.</p>
+            <p>My goal is to become a UX designer or front-end developer, working on projects that prioritize accessibility and user-centered design. I hope to work on innovative digital experiences that make technology more intuitive for everyone.</p>
+        </section>
+        
+        <section id="skills" class="section-bg mt-3">
+            <h2>Skills & Interests</h2>
+            <table class="table table-bordered bg-white">
+                <thead class="bg-custom text-custom">
+                    <tr>
+                        <th>Skill</th>
+                        <th>Proficiency</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML & CSS</td>
+                        <td>Beginner</td>
+                    </tr>
+                    <tr>
+                        <td>Python</td>
+                        <td>Beginner</td>
+                    </tr>
+                    <tr>
+                        <td>Processing</td>
+                        <td>Beginner</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <section id="more-about" class="section-bg mt-3">
+            <h2>More About Me</h2>
+            <h3>Future Goals</h3>
+            <p>I aspire to work on many projects in the future and fufill my goal of working with some of the most well known tech companies in the world.</p>
+            
+            <h3>People Who Inspire Me</h3>
+            <p>I admire Don Norman, the author of The Design of Everyday Things and a pioneer in human-centered design. His work has shaped how designers think about usability, accessibility, and the user experience..</p>
+            
+            <h3>Hobbies & Passions</h3>
+            <p>My hobbies include soccer and reading, which connect to my career by helping me develop teamwork, strategy, and critical thinking. Soccer enhances my ability to collaborate and adapt in fast-paced environments, skills essential in UX design. Reading expands my knowledge of user psychology, design principles, and emerging technologies, keeping me inspired and informed.</p>
+            
+            <h3>My Projects</h3>
+            <h4>My Leaving Cert Computer Science Project : The Hydro Hub</h4>
+            
+           
+            
+    <video width="640" height="360" controls>
+        <source src="Computer Science Coursework Video - Copy.mp4"video/mp4">
+    </video>
+            <p>The Hydro Hub is a smart device that encourages and tracks water consumption, supporting healthy hydration practices using the BBC micro:bit. Let's break down the main functionalities:.</p>
+            <h6>Tracking Water Consumption:</h6>   
+            <p>Whenever you tilt the device to the right, it adds one to the waterTrack count.</p>
+            <p>It also adds this count to drinkLog.</p>
+            <h6>Button A</h6>
+            <p>When you press button A, it shows "Sips Taken" on the device screen, followed by the number of sips stored in drinkLog</p>
+            <h6>Button B</h6>
+            <p>When you press button B, the drinkLog is reset.</p>
+            <h6>Drink Log Array:</h6>
+            <p>The array ‘drinkLog’ stores the number of times water has been consumed each time the micro:bit is tilted to the right. It is initially an empty array.</p>
+            <h6>Serial Output:</h6> 
+            <p>The ‘waterTrack’ is continuously output to the serial interface where the data is then stored on graphs in your ‘My Hydro Hub tab'.</p>
+            <h6>Continuous Display:</h6>
+            <p>It continuously displays a negative icon on the screen unless a sip is being taken, in that case it displays a tick icon until you have finished taken your sip</p>
+            <h2>Sound Media Project</h2>
+            <P>For this assignment we were asked to: </P>
+            <p>Record some audio about a topic, the edit the audio Audacity together with other sounds to form a coherent audio piece. </p>
+            <p>For my assignment I recorded audio of me discussing the singer the Weeknd and his rise to fame. I adjusted the volume and added a bass and tremble effect to adjust frequency. I then imported the Weeknd's song as an MP3 to play in the background, and I adjusted the volume such that it enhanced rather than overshadowed my narration. Lastly, to give the background audio a sense of depth and unity between the vocal and musical elements, I subtly applied a reverb effect. </p>
+            <audio controls>
+                <source src="finalweeknd.mp3" type="audio/mpeg">
+            </audio> <br><br>
+            <h2>Video Media Project</h2>
+            <p>This assignment was a group project</p>
+            <p>We were asked to work in our groups to record and edit a video on a topic of our choice.</p>
+            <p>My group did our project on Artificial Intelligence in acedemia</p>
+            <video width="640" height="360" controls>
+                <source src="Digital Media - Video assignment (1).mp4" type="video/mp4">
+              </video> <br><br>
+        </section>
+        
+        <section id="reflection" class="section-bg mt-3">
+            <h2>Reflection & Future Plans</h2>
+            <p>This website represents me by showcasing my journey and interests.</p>
+            <p>In the future, I would like to add sections on new design projects, showcasing my best work.
+            <p>I wish to improve my skills, I plan to implement interactive prototypes to enhance user experience and for better accessibility.</p></p>
+        </section>
+        
+        <section id="design-process" class="section-bg mt-3">
+            <h2>My Design Process</h2>
+            <p>Below is an image of my boxified design sketch.</p>
+            <img src="boxify.jpg" alt="Boxified Design" class="img-fluid" width="350">
+        </section>
+    </div>
+    
+    <footer class="bg-custom text-custom text-center p-3 mt-4">
+        <p>Ruth Concannon - Interaction Design</p>
+        <p>24419923@studentmail.ul.ie</p>
+    </footer>
+</body>
+</html>

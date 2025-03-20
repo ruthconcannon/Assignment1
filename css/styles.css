@@ -1,0 +1,27 @@
+        /* Default background color */
+        body {
+            background-color: #f4f4f9;
+            transition: background-color 0.5s ease-in-out;
+        }
+        
+        /* Background color changes based on screen width */
+        @media (max-width: 1200px) {
+            body { background-color: #d1e7ff; } /* Light Blue */
+        }
+        @media (max-width: 992px) {
+            body { background-color: #ffeed9; } /* Light Orange */
+        }
+        @media (max-width: 768px) {
+            body { background-color: #f8d7da; } /* Light Red */
+        }
+        @media (max-width: 576px) {
+            body { background-color: #d4edda; } /* Light Green */
+        }
+        
+        .bg-custom { background-color: #007bff; }
+        .text-custom { color: #ffffff; }
+        .section-bg {
+            background-color: #e3f2fd;
+            padding: 20px;
+            border-radius: 10px;
+        }
